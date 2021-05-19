@@ -27,9 +27,9 @@ public class EventUmeng {
 //            UMConfigure.setLogEnabled(true);
             UMConfigure.init(context, androidAppKey, "umeng", UMConfigure.DEVICE_TYPE_PHONE, "");
 //            MobclickAgent.setDebugMode(DebugableUtil.isDebug());
-            MobclickAgent.openActivityDurationTrack(false);
-            MobclickAgent.setCatchUncaughtExceptions(!DebugableUtil.isDebug());
-            MobclickAgent.setScenarioType(context, MobclickAgent.EScenarioType.E_UM_NORMAL);
+//            MobclickAgent.openActivityDurationTrack(false);
+//            MobclickAgent.setCatchUncaughtExceptions(!DebugableUtil.isDebug());
+//            MobclickAgent.setScenarioType(context, MobclickAgent.EScenarioType.E_UM_NORMAL);
             UMShareAPI.get(context);
         }
     }

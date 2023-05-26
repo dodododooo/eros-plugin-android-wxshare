@@ -30,13 +30,13 @@ dependencies {
     //友盟数据分析
 //    compile 'com.umeng.sdk:common:1.5.3'
 //    compile 'com.umeng.sdk:analytics:7.5.3'
-    compile  'com.umeng.umsdk:common:9.3.8'//必选
-    compile  'com.umeng.umsdk:asms:1.2.2'//必选
+    compile  'com.umeng.umsdk:common:9.5.8'//必选
+    compile  'com.umeng.umsdk:asms:1.6.3'//必选
 //    compile files('libs/umeng_social_net.jar')
 //    compile files('libs/umeng-sharetool-6.9.3.jar')
 //    compile files('libs/umeng-share-wechat-simplify-6.9.3.jar')
-    compile files('libs/umeng-sharetool-7.1.4.jar')
-    compile files('libs/umeng-share-wechat-full-7.1.4.jar')
+    compile files('libs/umeng-sharetool-7.3.2.jar')
+    compile files('libs/umeng-share-wechat-full-7.3.2.jar')
 
     compile project(':nexus')
 //    implementation 'com.github.bmfe.eros-nexus:nexus:1.0.0'
